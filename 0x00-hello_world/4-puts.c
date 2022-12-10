@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * my_function - This is a description
+ * main - Prints ""Programming is like building a multilingual puzzle"
  */
 int main(void)
 {
