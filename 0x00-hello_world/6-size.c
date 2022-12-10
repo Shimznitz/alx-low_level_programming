@@ -2,7 +2,7 @@
 /**
  * main - prints sizes of types
  * types include char, int, long int etc
- * returns 0
+ * Return: 0
  */
 int main(void)
 {	
