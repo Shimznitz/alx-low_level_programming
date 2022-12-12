@@ -3,24 +3,24 @@
 #include <stdio.h>
 
 /**
-  main - displays last digit of number
-  Return - 0
+ * main - displays last digit of number
+ * Return - 0
   */
 int main(void)
 {
 	int n;
-	int last_digit;
+	int nn;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = n % 10;
+	nn = n % 10;
 
-	if (last_digit > 5)
-		printf("Last digit of %i is %d and is greater than 5\n", n, last_digit);
-	else if (last_digit == 0)
-		printf("Last digit of %i is %d and is 0\n", n, last_digit);
-	else if (last_digit < 6 && last_digit != 0)
-		printf("Last digit of %i is %d and is less than 6 and not 0\n", n, last_digit);
+if (nn > 5)
+	printf("Last digit of %i is %d and is greater than 5\n", n, nn);
+else if (nn == 0)
+	printf("Last digit of %i is %d and is 0\n", n, nn);
+else if (nn < 6 && nn != 0)
+	printf("Last digit of %i is %d and is less than 6 and not 0\n", n, nn);
 
 	else
 	{printf("f");}
