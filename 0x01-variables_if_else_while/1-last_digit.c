@@ -4,8 +4,8 @@
 
 /**
  * main - displays last digit of number
- * Return - 0
-  */
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
@@ -23,6 +23,6 @@ else if (nn < 6 && nn != 0)
 	printf("Last digit of %i is %d and is less than 6 and not 0\n", n, nn);
 
 	else
-	{printf("f");}
+	{printf("f"); }
 		return (0);
 }
