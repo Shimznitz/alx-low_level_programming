@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int comma_placer = 0;
+	int number = 0;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (number = 0; number <= 9; ++number)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (comma_placer = 0; comma_placer <= 9; ++comma_placer)
 		{
-			putchar(tens);
-			putchar(ones);
-			if (!(ones == '9' && tens == '8'))
+			putchar(number);
+			putchar(comma_placer);
+			if (!(comma_placer == 9 && number == 8))
 			{
 				putchar(',');
 				putchar(' ');
