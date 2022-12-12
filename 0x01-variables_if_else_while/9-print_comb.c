@@ -5,22 +5,18 @@
  */
 int main(void)
 {
-	int comma_placer = 0;
-	int number = 0;
+	int a;
 
-	for (number = 0; number <= 9; ++number)
+	for (a = 48; a <= 57; a++)
 	{
-		for (comma_placer = 0; comma_placer <= 9; ++comma_placer)
+		putchar(a);
+		if (a < 57)
 		{
-			putchar(number);
-			putchar(comma_placer);
-			if (!(comma_placer == 9 && number == 8))
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
