@@ -6,7 +6,7 @@
    * _islower - prints to lowercase
    * Return: Alway int
    */
-int _islower(int c)
+int _islower(int c)/* c - deoas stuff */
 {
 	if (islower(c) > 0)
 		return (1);
