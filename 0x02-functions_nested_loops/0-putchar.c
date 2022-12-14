@@ -7,12 +7,12 @@
 int main(void)
 {
 	char ch[8] = "_putchar"; /*_putschar array */
-	int i = 0; /* iterator */
+	int i = ; /* iterator */
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 8; ++i)
 		putchar(ch[i]);
 
 	putchar('\n');
-	fprintf(stderr, "stuff\n");
+	fprintf(stderr, "no errors");
 	return (0);
 }
