@@ -15,21 +15,18 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		putchar(positive_sign);
-		/* putchar(i);*/
 		return (1);
+		putchar(positive_sign);
 	}
 	else if (n < 0)
 	{
-		putchar(negative_sign);
-		/*putchar(i);*/
 		return (-1);
+		putchar(negative_sign);
 	}
 	else
 	{
-		putchar(zero_sign);
-		/*putchar(z);*/
 		return (0);
+		putchar(zero_sign);
 	}
 	/*putchar('\n');*/
 }
