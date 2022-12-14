@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _abs(int n) - prints abs value
+ * _abs - prints abs value
  * @n: does stuff
  * Return: Always abs(int)
  */
