@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * print_sign - returns certain values
  * Return: a range of return values
@@ -22,14 +21,14 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		putchar(negative_sign);
-		putchar(i);
+		/*putchar(i);*/
 		return (-1);
 	}
 	else
 	{
 		putchar(zero_sign);
-		putchar(z);
+		/*putchar(z);*/
 		return (0);
 	}
-	putchar('\n');
+	/*putchar('\n');*/
 }
