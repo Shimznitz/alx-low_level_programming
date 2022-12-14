@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 /**
- * _isalpha(int c) - prints true if upper or lowercase
+ * _isalpha - prints true if upper or lowercase
  * @c: The character to test
  *
  * Return: varying responses
