@@ -13,5 +13,6 @@ int main(void)
 		putchar(ch[i]);
 
 	putchar('\n');
+	fprintf(stderr, "stuff\n");
 	return (0);
 }
