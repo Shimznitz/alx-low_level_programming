@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char ch[] = ("_putchar"); /*_putschar array */
+	char ch[8] = ("_putchar"); /*_putschar array */
 	int i = 0; /* iterator */
 
 	for (i = 0; i <= 8; i++)
