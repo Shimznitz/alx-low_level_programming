@@ -11,8 +11,7 @@ int main(void)
 
 	for (i = 0; i <= 8; ++i)
 		putchar(ch[i]);
-
 	putchar('\n');
-	fprintf(stderr, "no errors");
+	fprintf(stderr, "");
 	return (0);
 }
