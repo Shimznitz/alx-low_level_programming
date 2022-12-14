@@ -6,8 +6,8 @@
  */
 int print_sign(int n)
 {
-	char i = '1';
-	char z = '0';
+	/*char i = '1';*/
+	/*char z = '0';*/
 	char positive_sign = '+';
 	char negative_sign = '-';
 	char zero_sign = '0';
