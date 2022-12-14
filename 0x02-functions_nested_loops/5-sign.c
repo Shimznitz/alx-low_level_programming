@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
 /**
  * print_sign - returns certain values
  * Return: a range of return values
