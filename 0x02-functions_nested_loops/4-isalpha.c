@@ -4,8 +4,9 @@
 #include <stdlib.h>
 /**
  * _isalpha(int c) - prints true if upper or lowercase
- * Return: varying responces
- @c: The character to test
+ * @c: The character to test
+ *
+ * Return: varying responses
  */
 int _isalpha(int c)
 {

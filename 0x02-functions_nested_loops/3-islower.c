@@ -4,7 +4,9 @@
 #include <ctype.h>
 /**
    * _islower - prints to lowercase
-   * Return: Alway int
+   * Return: Always int
+   *
+   * @c: the variable to test
    */
 int _islower(int c)/* c - deoas stuff */
 {
