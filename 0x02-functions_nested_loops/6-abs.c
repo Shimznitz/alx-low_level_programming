@@ -5,8 +5,8 @@
  * @int: does stuff
  * Return: Always 0
  */
-int _abs(int n)
+int _abs(intp n)
 {
 	int x = abs(n);
-	return (n);
+	return (x);
 }
