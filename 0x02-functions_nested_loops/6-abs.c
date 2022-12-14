@@ -5,7 +5,7 @@
  * @int: does stuff
  * Return: Always 0
  */
-int _abs(intp n)
+int _abs(int n)
 {
 	int x = abs(n);
 	return (x);
