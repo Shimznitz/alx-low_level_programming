@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _abs(int) - prints abs value
- * @int: does stuff
- * Return: Always 0
+ * _abs(int n) - prints abs value
+ * @n: does stuff
+ * Return: Always abs(int)
  */
-int _abs(int n)
+int _abs(int)
 {
-	return (abs(n));
+	return (abs(int));
 }
