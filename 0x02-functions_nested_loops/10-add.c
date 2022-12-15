@@ -1,4 +1,4 @@
-#include "math.c"
+#include "math.h"
 #include <stdlib.h>
 /**
  * add - adds number
