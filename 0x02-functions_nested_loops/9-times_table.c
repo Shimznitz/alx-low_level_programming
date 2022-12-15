@@ -11,11 +11,12 @@ void times_table(void)
 	char ch = '0';
 
 	putchar(ch);
+	putchar(',');
+	putchar(' ');
 	for (b = 0; b <= 9; b++)
 	{
 		b *= 9;
 		printf("%d, ", b);
-		b = 10;
 	}
 	printf("\n");
 }
