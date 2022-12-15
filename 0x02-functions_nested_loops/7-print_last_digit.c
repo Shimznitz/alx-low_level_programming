@@ -1,6 +1,6 @@
 #include "main.h"
-#include <>
-#include <>
+#include <math.h>
+#include <stdlib.h>
 /**
  * print_last_digit - prints len of nums
  * @n: manipulated
