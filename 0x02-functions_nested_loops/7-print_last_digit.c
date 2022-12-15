@@ -1,5 +1,6 @@
 #include "main.h"
 #include <math.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * print_last_digit - prints len of nums
