@@ -20,23 +20,23 @@ void jack_bauer(void)
 	{
 	for (d = 48; d <= 57; d++)
 	{
-		putchar(a); putchar(b); putchar(':'); putchar(c); putchar(d);
+		putchar(a);
+		putchar(b);
+		putchar(':');
+		putchar(c);
+		putchar(d);
 		putchar('\n');
-	}
-	}
-	}
-
-	}
-
+	}}}}
 	for (b = 48; b <= 51; b++)
 	{
 	for (c = 48; c <= 53; c++)
 	{
 	for (d = 48; d <= 57; d++)
 	{
-		putchar(x); putchar(b); putchar(':'); putchar(c); putchar(d);
+		putchar(x);
+		putchar(b);
+		putchar(':');
+		putchar(c);
+		putchar(d);
 		putchar('\n');
-	}
-	}
-	}
-}
+	}}}}
