@@ -30,7 +30,7 @@ void jack_bauer(void)
 		}
 
 	}
-	char a = 48;
+	char x = 48;
 
 	for (b = 48; b <= 51; b++)
 	{
@@ -38,7 +38,7 @@ void jack_bauer(void)
 		{
 			for (d = 48; d <= 57; d++)
 			{
-				putchar(a);
+				putchar(x);
 				putchar(b);
 				putchar(':');
 				putchar(c);
