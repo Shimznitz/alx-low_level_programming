@@ -8,6 +8,6 @@
  */
 int print_last_digit(int n)
 {
-	int b = floor(logb(abs(n))) + 1;
+	int b = floor(log10(abs(n))) + 1;
 	return (b);
 }
