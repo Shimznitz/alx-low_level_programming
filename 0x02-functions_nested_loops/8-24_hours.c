@@ -10,6 +10,7 @@ void jack_bauer(void)
 	char b = 48;
 	char c = 48;
 	char d = 48;
+	char x = 48;
 
 	for (a = 48; a <= 49; a++)
 	{
@@ -30,7 +31,6 @@ void jack_bauer(void)
 		}
 
 	}
-	char x = 48;
 
 	for (b = 48; b <= 51; b++)
 	{
