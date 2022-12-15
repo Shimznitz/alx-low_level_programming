@@ -9,6 +9,24 @@
  */
 int print_last_digit(int n)
 {
-	int b = floor(log10(abs(n))) + 1;
+	if (n > 0)
+	{
+		if (n > 10)
+		{	int ans = n % 10;
+			return (ans);
+		}
+		return (n);
+	}
+	else if(n < 0)
+	{
+		int abs_res = abs(n);
+		if (abs_res > 0)
+		{
+			int ans = abs_res % 10;
+			return (ans);
+		}
+	}
+	else
+		return (n);
 	return (b);
 }
