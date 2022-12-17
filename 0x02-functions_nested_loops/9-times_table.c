@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * times_table
+ * times_table - prints 9x table
+ * Description: prints 9x table
  * Returns: a void
  */
 void times_table(void)
