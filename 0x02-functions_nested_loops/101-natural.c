@@ -14,14 +14,14 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			a += i;
+			a = a + i;
 		}
 		else if ((i % 5) == 0)
 		{
-			b += i;
+			b = b + i;
 		}
 	}
-	c += b;
+	c = a + b;
 	printf("%lu\n", c);
 	return (0);
 
