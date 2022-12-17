@@ -9,23 +9,13 @@
  */
 int print_last_digit(int n)
 {
-	if (n > 0)
-	{
-		if (n > 10)
-		{	int ans = n % 10;
-			return (ans);
-		}
-		return (n);
-	}
-	else if(n < 0)
-	{
-		int abs_res = abs(n);
-		if (abs_res > 0)
-		{
-			int ans = abs_res % 10;
-			return (ans);
-		}
-	}
-	else
-		return (n);
+	int abs_res = abs(n);
+	int ans = abs_res % 10;
+
+	if (n < 0)
+		ans = ans * -1;
+
+	_putchar(ans + '0');
+
+	return (ans);
 }
