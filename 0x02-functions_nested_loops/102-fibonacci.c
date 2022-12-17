@@ -7,6 +7,7 @@ int main(void)
 {
 	long int j = 1;
 	long int k = 2;
+	long int i;
 	long int nn;
 
 	for (i = 1; i <= 50; i++)
