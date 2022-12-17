@@ -32,7 +32,7 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar((prd /10) % 10 + '0');
+				_putchar((prd / 10) % 10 + '0');
 				_putchar(prd % 10 + '0');
 			}
 			else if (prd > 99 && prd < 1000)
