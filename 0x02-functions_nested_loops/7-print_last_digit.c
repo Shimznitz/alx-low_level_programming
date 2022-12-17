@@ -15,8 +15,6 @@ int print_last_digit(int n)
 	if (n < 0)
 	{
 		ans = ans * -1;
-
-		return (ans);
 	}
 
 	return (ans);
