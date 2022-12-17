@@ -13,9 +13,11 @@ int print_last_digit(int n)
 	int ans = abs_res % 10;
 
 	if (n < 0)
+	{
 		ans = ans * -1;
 
-	_putchar(ans + '0');
+		return (ans);
+	}
 
 	return (ans);
 }
