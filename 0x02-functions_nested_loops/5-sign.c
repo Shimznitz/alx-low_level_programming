@@ -27,7 +27,7 @@ int print_sign(int n)
 	else
 	{
 		_putchar(zero_sign);
-		return(0);
+		return (0);
 	}
 	/*putchar('\n');*/
 }
