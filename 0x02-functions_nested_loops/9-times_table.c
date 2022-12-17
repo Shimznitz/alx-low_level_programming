@@ -10,13 +10,20 @@ void times_table(void)
 	int  b;
 	char ch = '0';
 
-	putchar(ch);
-	putchar(',');
-	putchar(' ');
 	for (b = 0; b <= 9; b++)
+	{
+	if (b > 1)
 	{
 		b *= 9;
 		printf("%d, ", b);
 	}
+	else
+	{
+		putchar(ch);
+		putchar(',');
+		putchar(' ');
+		for (i = b; )
+	}
 	printf("\n");
+	}
 }

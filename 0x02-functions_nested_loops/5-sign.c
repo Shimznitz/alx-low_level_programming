@@ -4,6 +4,7 @@
 /**
  * print_sign - returns certain values
  * Return: a range of return values
+ * @n: input integer
  */
 int print_sign(int n)
 {
@@ -15,17 +16,17 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		putchar(positive_sign);
+		_putchar(positive_sign);
 		return (1);
 	}
 	else if (n < 0)
 	{
-		putchar(negative_sign);
+		_putchar(negative_sign);
 		return (-1);
 	}
 	else
 	{
-		putchar(zero_sign);
+		_putchar(zero_sign);
 		return(0);
 	}
 	/*putchar('\n');*/
