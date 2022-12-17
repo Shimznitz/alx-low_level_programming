@@ -22,6 +22,6 @@ int main(void)
 		j = k;
 		k = nn;
 	}
-	printd("%lu\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
