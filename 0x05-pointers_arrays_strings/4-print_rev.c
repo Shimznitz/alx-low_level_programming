@@ -14,7 +14,7 @@ void print_rev(char *s)
 
 	for (i = count; i >= 0; --i )
 	{
-		if (s != '\0')
+		if (s[i] != '\0')
 		{
 		printf("%c",s[i]);
 		}
