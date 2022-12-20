@@ -8,13 +8,16 @@
 void rev_string(char *s)
 {
 	int count = strlen(s);
+	char x[];
 	int i;
+
+
 
 	for (i = count; i >= 0; --i)
 	{
 		if (s[i] != '\n')
 		{
-			printf("%c", s[i]);
+		 x[i] = s
 		}
 	}
 }
