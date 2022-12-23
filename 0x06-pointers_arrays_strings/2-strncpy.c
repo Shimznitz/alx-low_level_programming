@@ -1,6 +1,6 @@
 #include <string.h>
 /**
- * strncpy - copy 1 string to another
+ * _strncpy - copy 1 string to another
  * @dest: destination
  * @src: source
  * @n: integer
