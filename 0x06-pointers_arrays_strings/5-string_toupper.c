@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * string_trouper - lower to upper
- * @s: pointer to char par
+ * string_toupper - lower to upper
+ * @s: pointer to char
  * Return: *s
  */
 char *string_toupper(char *s)
@@ -14,5 +14,6 @@ char *string_toupper(char *s)
 			s[i] -= 32;
 	}
 
-		return (s);
+	return (s);
 }
+
