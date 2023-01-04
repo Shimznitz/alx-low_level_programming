@@ -13,6 +13,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-	return ((_sqrt_recursion(n) + (n / _sqrt_recursion(n))/2);
+	return ((_sqrt_recursion(n) + (n / _sqrt_recursion(n))) / 2);
 	}
 }
