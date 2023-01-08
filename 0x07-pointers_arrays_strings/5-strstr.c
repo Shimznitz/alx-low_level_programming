@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (!*needle)
 		{
-			result (result);
+			return (result);
 		}
 		needle = tneedle;
 		result++;
