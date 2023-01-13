@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < strlen(str) + 1; i++)
+	for (i = 0; i < strlen(str); i++)
 	{
 		ptr[i] = str[i];
 	}
