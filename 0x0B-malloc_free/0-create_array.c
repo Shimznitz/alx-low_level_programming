@@ -17,15 +17,13 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	ptr = malloc(size * sizeof(char)); /*memory allocated using malloc*/
-
-	for (i = 0; i < size; i++)
+	if (!p)
 	{
-		ptr[i] = c;
+		return (NULL);
 	}
 	for (i = 0; i < size; i++)
 	{
-		free(ptr[i]);
-		ptr[i] = NULL;
+		ptr[i] = c;
 	}
 
 	return (ptr);
