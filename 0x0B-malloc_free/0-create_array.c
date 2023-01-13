@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.hi>
+#include <stdlib.h>
 /**
  * *create_array - prints buffer in hexa
  * @size: size of array
