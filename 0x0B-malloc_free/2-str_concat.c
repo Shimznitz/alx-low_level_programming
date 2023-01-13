@@ -8,9 +8,9 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int l1 = 0;
-	int l2 = 0;
-	char *stringConcat;
+	unsigned int l1 = 0;
+	unsigned int l2 = 0;
+	char *tmp, *stringConcat;
 
 	while (s1[l1] != '\0')
 	{
@@ -31,6 +31,16 @@ char *str_concat(char *s1, char *s2)
 
 	if (!stringConcat)
 		return (0);
+
+	tmp = stringConcat;
+	while (*s1)
+	{
+		*tmp++ = *s1++;
+	}
+	while ((*tmp++ = *s2++))
+	{
+		;
+	}
 
 	return (stringConcat);
 
