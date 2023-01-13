@@ -12,22 +12,27 @@ char *str_concat(char *s1, char *s2)
 	unsigned int l2 = 0;
 	char *tmp, *stringConcat;
 
+	if (!s1)
+		s1 = "";
+	else
+	{
 	while (s1[l1] != '\0')
 	{
 		l1 += l1;
 		l1++;
 	}
-
+	}
+	if (!s2)
+		s2 = "";
+	else
+	{
 	while (s2[l2] == '\0')
 	{
 		l2 += l2;
 		l2++;
 	}
+	}
 	stringConcat = malloc(sizeof(char) * (l1 + l2 - 3));
-	if (!s1)
-		s1 = "";
-	if (!s2)
-		s2 = "";
 	if (!stringConcat)
 		return (0);
 
@@ -40,16 +45,5 @@ char *str_concat(char *s1, char *s2)
 	{
 		;
 	}
-	if (s1 == NULL)
-	{
-		s1 = "";
-		return (stringConcat);
-	}
-	if (s2 == NULL)
-	{
-		s2 = "";
-		return (stringConcat);
-	}
-
 	return (stringConcat);
 }
