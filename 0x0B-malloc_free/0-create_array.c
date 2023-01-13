@@ -22,6 +22,11 @@ char *create_array(unsigned int size, char c)
 	{
 		ptr[i] = c;
 	}
+	for (i = 0; i < size; i++)
+	{
+		free(ptr[i]);
+		ptr[i] = NULL;
+	}
 
 	return (ptr);
 }
