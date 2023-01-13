@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * _strdup - returns a poinere to a string
  * @str: pointer
