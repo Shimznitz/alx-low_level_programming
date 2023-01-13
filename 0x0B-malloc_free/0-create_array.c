@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	ptr = malloc(size * sizeof(char)); /*memory allocated using malloc*/
-	if (!p)
+	if (!ptr)
 	{
 		return (NULL);
 	}
