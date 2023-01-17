@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Printd file name
  * Return: zero
