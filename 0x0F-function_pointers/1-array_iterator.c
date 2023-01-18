@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "function_pointers.h"
+#include <stdlib.h>
 /**
  * array_iterator - prints array
  * @array: an arrray of elements
@@ -7,7 +9,7 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i = 0
+	unsigned int i = 0;
 
 	for (; i < 5; i++)
 	{
