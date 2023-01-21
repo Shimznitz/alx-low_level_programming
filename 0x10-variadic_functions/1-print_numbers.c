@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * sum_them_all - sums parameters
+ * print_numbers - sums parameters
  * @n: last declared parameter
  * @seperator: string char
  * Return: returns an integer
