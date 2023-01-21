@@ -4,7 +4,7 @@
 /**
  * print_numbers - sums parameters
  * @n: last declared parameter
- * @seperator: string char
+ * @separator: string char
  * Return: returns an integer
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -19,12 +19,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		x = va_arg(p, int);
 		printf("%d", x);
-		if (separator && i != n - 1)
+		if (separator && i != (n - 1))
 		{
 		printf("%s", separator);
 		}
 	}
 	printf("\n");
-
 	va_end(p);
 }
