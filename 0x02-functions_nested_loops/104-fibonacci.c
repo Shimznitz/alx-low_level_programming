@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - finds and prints first fibbo numbers
- * Returb: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
