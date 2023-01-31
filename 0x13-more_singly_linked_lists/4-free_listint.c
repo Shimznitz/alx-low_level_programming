@@ -10,6 +10,9 @@ void free_listint(listint_t *head)
 	freed = malloc(sizeof(listint_t));
 
 	freed = head;
-
-	free(freed);
+	while (freed != NULL)
+	{
+		freed = fred->next;
+		free(freed);
+	}
 }
