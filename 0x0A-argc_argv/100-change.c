@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - adds multiple numbers.
  * @argc: number of command line arguments.
