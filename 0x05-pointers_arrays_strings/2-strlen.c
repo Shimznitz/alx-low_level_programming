@@ -7,9 +7,13 @@
  */
 int _strlen(char *s)
 {
-	int str_len;
+	int count, i = 0;
 
-	str_len = strlen(s);
+	while (i != NULL)
+	{
+		count++;
+		i++;
+	}
 
-	return (str_len);
+	return (count);
 }
